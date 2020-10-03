@@ -20,7 +20,7 @@
     --error: #BA2732;
   }
   body {
-    min-width: 1 200px;
+    min-width: 1200px;
     margin: 0;
     padding: 0;
     font-family: "Cuprum", "PT Sans", Arial, sans-serif;
@@ -39,6 +39,9 @@
   img {
     max-width: 100%;
     height: auto;
+  }
+  .logo {
+    background-color: var(--basic-red);
   }
   .site-navigation a,
   .user-navigation a {
@@ -128,7 +131,7 @@
   .special-yellowlight {
     background-color: var(--special-yellowlight);
   }
-  .slider-1-h2 {
+  .slider-h2 {
     font-weight: bold;
     font-size: 36px;
     line-height: 36px;
@@ -136,7 +139,7 @@
     color: var(--basic-white);
     background-color: var(--slider-grey)
   }
-  .slider-1-description {
+  .slider-description {
     font-size: 18px;
     line-height: 24px;
     color: var(--basic-white);
@@ -180,7 +183,7 @@
     text-transform: uppercase;
     color: var(--basic-black);
   }
-  .services .description-h2 {
+  .services .description-services {
     font-family: PT Sans;
     font-size: 13px;
     line-height: 24px;
@@ -200,7 +203,7 @@
     text-transform: uppercase;
     color: var(--basic-grey);
   }
-  .services .description-h3 {
+  .services .description-delivery {
     font-family: PT Sans;
     font-size: 13px;
     line-height: 24px;
